@@ -48,7 +48,7 @@ class App < Sinatra::Base
   end
 
   get '/fetch_session_id' do
-    "session[:user_id] value: #{session[:user_id]}."
+    "session[:id] value: #{session[:user_id]}."
   end
 
   get '/logout' do
