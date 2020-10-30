@@ -45,7 +45,7 @@ class App < Sinatra::Base
     else
       "Session ID has not been set!"
     end
-    
+
   end
 
   get '/fetch_session_id' do
